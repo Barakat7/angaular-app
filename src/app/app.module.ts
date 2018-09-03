@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
 import { AppComponent } from './app.component';
 import { RecipesComponent } from './recipes/recipes.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 
 
 @NgModule({
@@ -10,6 +11,7 @@ import { RecipesComponent } from './recipes/recipes.component';
     AppComponent,
   HeaderComponent,
   RecipesComponent,
+  RecipeDetailComponent,
    ],
   imports: [
     BrowserModule
